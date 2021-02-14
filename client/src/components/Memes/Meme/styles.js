@@ -4,8 +4,13 @@ export default makeStyles({
   media: {
     height: '100%',
     width: '100%',
-    paddingTop: '25%',
+    // paddingTop: '25%',
     backgroundColor: 'rgba(0, 0, 0, 0.5)',
+  },
+  image: {
+    // display: 'flex',
+    // flexWrap: 'wrap',
+    // justifyContent: 'center',
   },
   border: {
     border: 'solid',
