@@ -96,7 +96,9 @@ const Form = ({ currentId, setCurrentId }) => {
             setMemeData({ ...memeData, tags: e.target.value.split(",") })
           }
         />
-        <div className={classes.fileInput}>
+
+        {/* TRYING TO IMPLEMENT UPLOAD IMAGE FEATURE, NOT WORKING AS OF YET */}
+        {/* <div className={classes.fileInput}>
           <FileBase
             type="file"
             multiple={false}
@@ -104,7 +106,7 @@ const Form = ({ currentId, setCurrentId }) => {
               setMemeData({ ...memeData, selectedFile: base64 })
             }
           />
-        </div>
+        </div> */}
         <Button
           className={classes.buttonSubmit}
           variant="contained"

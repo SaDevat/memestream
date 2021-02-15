@@ -22,11 +22,10 @@ const Meme = ({ meme, setCurrentId }) => {
 
   return (
     <Card className={classes.card}>
-      <CardMedia
-        title={meme.title}
-      > <img 
-      className={classes.image, classes.media} 
-       src = {meme.url}/> </CardMedia>
+      <CardMedia title={meme.title}>
+        {" "}
+        <img className={classes.media} alt="" src={meme.url} />{" "}
+      </CardMedia>
       <div className={classes.overlay}>
         <Typography variant="body2">
           {moment(meme.createdAt).fromNow()}
