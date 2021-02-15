@@ -56,7 +56,7 @@ const Form = ({ currentId, setCurrentId }) => {
         onSubmit={handleSubmit}
       >
         <Typography variant="h6">
-          {currentId ? `Editing "${meme.title}"` : "Creating a Memory"}
+          {currentId ? `Editing "${meme.title}"` : "Create Your Meme"}
         </Typography>
         <TextField
           name="url"
